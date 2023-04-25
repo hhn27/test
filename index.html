@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    </head>
+
+    <body>
+        <div class="homepage">
+            <div>
+                <div class="swiper bannerSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="/assets/image 1.png">
+                            <span class="banner-text"> BEGINS <span class="tour-text"> TOUR </span> WITH A SINGLE STEP</span>
+                            <img class="discovery-img" src="/assets/discovery.svg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/assets/image 1.png">    
+                        </div>  
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                
+                <div class="header">
+                    <img src="/assets/Group.png">
+                    <nav class="nav">
+                        <ul>
+                            <li class="header-item active"> 
+                                <span> Home </span> 
+                                <img src="/assets/index.svg">
+                            </li>
+                            <li class="header-item"> 
+                                <span> Destinations </span>
+                                <img src="/assets/chevron-down.svg">
+                            </li>
+                            <li class="header-item"> 
+                                <span> Travel styles </span>
+                                <img src="/assets/chevron-down.svg">
+                            </li>
+                            <li class="header-item"> 
+                                <span> About us </span>
+                                <img src="/assets/chevron-down.svg">
+                            </li>
+                            <li class="header-item"> 
+                                <span> Blog </span>
+                                <img src="/assets/chevron-down.svg">
+                            </li>
+                            <li class="header-item"> 
+                                <span> Contact </span>
+                                <img src="/assets/chevron-down.svg">
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="contact">
+                        <div>
+                            <img src="/assets/phone.svg">
+                            <span> +84 969 678 760 </span>
+                        </div>
+                        <button class="main">
+                            PLAN MY TOUR
+                        </button>
+                    </div>
+                </div>
+
+                <div class="header-mobile">
+                    <div>
+                        <button onclick="popupMenuOpenHandler()"><img src="/assets/menu.svg"></button>
+                        <img src="/assets/Group.png">
+                        <img src="/assets/phone.svg">
+                    </div>
+                </div>
+
+                <div class="popup-menu">
+                    <div class="popup-menu-header">
+                        <button class="close" onclick="popupMenuCloseHandler()"> <img src="/assets/x.svg"> </button>
+                        <div class="line"></div>
+                    </div>
+                    <nav class="nav-mobile">
+                        <ul>
+                            <li class="nav-li active"> Home </li>
+                            <li> Destinations </li>
+                            <li> Travel styles </li>
+                            <li> About us </li>
+                            <li> Blog </li>
+                            <li> Contact </li>
+                        </ul>
+                    </nav>
+                    <div class="popup-menu-contact">
+                        <div class="popup-menu-contact-item"> 
+                            <div>
+                                <div> <img src="/assets/zalo.svg"> </div>
+                                <span> Kết nối zalo </span>
+                                <span> 0339.867.688 </span>
+                            </div>
+                            <div>
+                                <img src="/assets/arrow-popup.svg">
+                            </div>
+                        </div>
+                        <div class="popup-menu-contact-item"> 
+                            <div>
+                                <div> <img src="/assets/phone-pop-up.svg"> </div>
+                                <span> Kết nối zalo </span>
+                                <span> 0339.867.688 </span>
+                            </div>
+                            <div>
+                                <img src="/assets/arrow-popup.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="destinations">
+                <h1> Top destinations </h1>
+                <div class="destinations-grid">
+                    <div class="item item1">
+                        <img src="./assets/fixed-aspect-ratio-spacer.png">
+                        <div class="rate">
+                            <span class="normal"> 4.8 / 5</span>
+                            <img src="/assets/star.svg">
+                        </div>
+                        <div class="location">
+                            <div>
+                                <img src="/assets/map-pin1.svg">
+                                <span class="location-name"> Nghe An, Viet Nam </span>
+                            </div>
+                            <div>
+                                <span class="location-spot"> Hoa Lu <br> ancient capital Ninh Binh </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item2"> 
+                        <img src="./assets/fixed-aspect-ratio-spacer-3.png">
+                        <div class="rate">
+                            <span class="normal"> 4.8 / 5</span>
+                            <img src="/assets/star.svg">
+                        </div>
+                        <div class="location">
+                            <div>
+                                <img src="/assets/map-pin1.svg">
+                                <span class="location-name"> Nghe An, Viet Nam </span>
+                            </div>
+                            <div>
+                                <span class="location-spot"> Hoa Lu <br> ancient capital Ninh Binh </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item3"> 
+                        <img src="./assets/fixed-aspect-ratio-spacer-4.png">
+                        <div class="rate">
+                            <span class="normal"> 4.8 / 5</span>
+                            <img src="/assets/star.svg">
+                        </div>
+                        <div class="location">
+                            <div>
+                                <img src="/assets/map-pin1.svg">
+                                <span class="location-name"> Nghe An, Viet Nam </span>
+                            </div>
+                            <div>
+                                <span class="location-spot"> Hoa Lu <br> ancient capital Ninh Binh </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item4">
+                        <img src="./assets/fixed-aspect-ratio-spacer-1.png">
+                        <div class="rate">
+                            <span class="normal"> 4.8 / 5</span>
+                            <img src="/assets/star.svg">
+                        </div>
+                        <div class="location">
+                            <div>
+                                <img src="/assets/map-pin1.svg">
+                                <span class="location-name"> Nghe An, Viet Nam </span>
+                            </div>
+                            <div>
+                                <span class="location-spot"> Hoa Lu <br> ancient capital Ninh Binh </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item5">
+                        <img src="./assets/fixed-aspect-ratio-spacer-2.png">
+                        <div class="rate">
+                            <span class="normal"> 4.8 / 5</span>
+                            <img src="/assets/star.svg">
+                        </div>
+                        <div class="location">
+                            <div>
+                                <img src="/assets/map-pin1.svg">
+                                <span class="location-name"> Nghe An, Viet Nam </span>
+                            </div>
+                            <div>
+                                <span class="location-spot"> Hoa Lu <br> ancient capital Ninh Binh </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item6">
+                        <img src="./assets/fixed-aspect-ratio-spacer-5.png">
+                        <div class="rate">
+                            <span class="normal"> 4.8 / 5</span>
+                            <img src="/assets/star.svg">
+                        </div>
+                        <div class="location">
+                            <div>
+                                <img src="/assets/map-pin1.svg">
+                                <span class="location-name"> Nghe An, Viet Nam </span>
+                            </div>
+                            <div>
+                                <span class="location-spot"> Hoa Lu <br> ancient capital Ninh Binh </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-us">
+                <div class="about-us-text">
+                    <div>
+                        <h1>
+                            About us
+                        </h1>
+                        <p class="large"> If you are planning travel for a vacation in Vietnam with your family, your friend group, your spouse or with yourself, you might need a personalized trip planner. Connek trip shall be helpful for you.
+                            <br>When traveling, time is a resource you don’t want to waste. Our job as your trip consultant is to help you plan your dream itineraries, stay up to date the information of travel restrictions and changes after Covid-19, get the “Insider” knowledge of the destination, protect your from scams and fraud, deal with last-minute changes and emergencies, etc. We do our best to help you receive the most value for your money. You will have complete peace of mind knowing there’re someone take care for you, 24/7 during your trip, and that is invaluable. “
+                        </p>
+                        <button class="main"> Read more </button>
+                    </div>
+                    <div class="about-us-statis">
+                        <div class="item1">
+                            <div> 
+                                <h2> 2500 </h2>
+                                <span> Happy guests </span>
+                            </div>
+                            <img src="/assets/happyguest.svg">
+                        </div>
+                        <div class="item2">
+                            <div>
+                                <h2> 8125 </h2>
+                                <span> Trip reserved </span>
+                            </div>
+                            <img src="/assets/tripreserved.svg">
+                        </div>
+                        <div class="item3">
+                            <div>
+                                <h2> 5 </h2>
+                                <img src="/assets/tripadrate.svg">
+                                <span> Tripadvisor rate </span>
+                            </div>
+                            <img src="/assets/tripreserved.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="about-us-image">
+                    <img class="img-change active" src="assets/Union.png">
+                    <img class="img-change" src="assets/Frame57.png">
+                </div>
+            </div>
+            <div class="tours-experience">
+                <h1> Tours & experience </h1>
+                <div class="tours-experience-container">
+                    <div class="tab-slide">
+                        <div class="tab-slide-info">
+                            <div class="tab-slide-text">
+                                <span class="tab-slide-text-item active normal"> MOUTAINOUS NORTHERN VIETNAM </span>
+                                <span class="tab-slide-text-item normal"> HANOI & SURROUNDS </span>
+                                <span class="tab-slide-text-item normal"> HALONG BAY, NINH BINH & RED RIVER DELTA </span>
+                                <span class="tab-slide-text-item normal"> CENTRAL VIETNAM
+                                </span>
+                                <span class="tab-slide-text-item normal"> CENTRAL HIGHLANDS </span>
+                                <span class="tab-slide-text-item normal"> HO CHI MINH CITY & SURROUNDS
+                                </span>
+                                <span class="tab-slide-text-item normal"> MEKONG DELTA
+                                </span>
+                                <span class="tab-slide-text-item normal"> BEACHES & ISLANDS </span>
+                            </div>
+                            <div> <img src="/assets/Frame 664.png"> </div>
+                            <div class="tab-slide-navigation">
+                                <div class="tab-slide-button">
+                                    <button class="tab-slide-button-prev" onclick="prevSlide()"><img src="/assets/arrow-left.png"></button>
+                                    <button class="tab-slide-button-next" onclick="nextSlide()"><img src="/assets/arrow-right.png"></button>
+                                </div>
+                                <div class="slider">
+                                    <div class="slider-absolute"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper toursSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="/assets/fixed-aspect-ratio-spacer0.png">                
+                                <div class="tours-experience-text">
+                                    <div> <img src="/assets/Group 2.png"> </div>
+                                    <span> MOUTAINOUS NORTHERN VIETNAM </span>
+                                </div>            
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/assets/fixed-aspect-ratio-spacer10.png">
+                                <div class="tours-experience-text">
+                                    <div> <img src="/assets/Group 2.png"> </div>
+                                    <span> MOUTAINOUS NORTHERN VIETNAM </span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/assets/fixed-aspect-ratio-spacer11.png"> 
+                                <div class="tours-experience-text">
+                                    <div> <img src="/assets/Group 2.png"> </div>
+                                    <span> MOUTAINOUS NORTHERN VIETNAM </span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/assets/fixed-aspect-ratio-spacer11.png">
+                                <div class="tours-experience-text">
+                                    <div> <img src="/assets/Group 2.png"> </div>
+                                    <span> MOUTAINOUS NORTHERN VIETNAM </span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/assets/fixed-aspect-ratio-spacer11.png">
+                                <div class="tours-experience-text">
+                                    <div> <img src="/assets/Group 2.png"> </div>
+                                    <span> MOUTAINOUS NORTHERN VIETNAM </span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/assets/fixed-aspect-ratio-spacer11.png"> 
+                                <div class="tours-experience-text">
+                                    <div> <img src="/assets/Group 2.png"> </div>
+                                    <span> MOUTAINOUS NORTHERN VIETNAM </span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/assets/fixed-aspect-ratio-spacer11.png">
+                                <div class="tours-experience-text">
+                                    <div> <img src="/assets/Group 2.png"> </div>
+                                    <span> MOUTAINOUS NORTHERN VIETNAM </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="connecting">
+                <h1> Connecting and following </h1>
+                <div class="connecting-container">
+                    <div class="connecting-left-side">
+                        <img src="/assets/Frame 315.png">
+                    </div>
+                    <div class="connecting-right-side">
+                        <h1>
+                            Connecting and following
+                        </h1>
+                        <p class="normal"> <b>Connek Trip's mission: </b> Create connections between tourists and local cultural values. 
+                            We do everything for a beautiful country Vietnam that is impressed by many international friends when it comes to us. 
+                            We are proud to be Vietnamese children, we have many beauties from the image of women to famous names. 
+                            The landscape creates an unforgettable highlight for Vietnam
+                        </p>
+                        <div class="connecting-img-bottom">
+                            <img src="/assets/Frame 317.png">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="/assets/Vietnam.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="customer-review">
+                <div>
+                    <h1> Customer's Review </h1>
+                    <button class="main">
+                        Book your trip
+                    </button>
+                </div>
+                <div class="customer-review-info">
+                    <img src="/assets/review.png">
+                    <div>
+                        <div>
+                            <h3> Lê Hoàng Hà (banking staff) </h3>
+                            <img src="/assets/star.svg">
+                        </div>
+                        <div>
+                            <span> Amet minim mollit non deserunt ullamco est sit aliqua ullamco est sit aliqua ullamco est sit aliqua </span>
+                       </div>
+                       <div class="review-large-device">
+                            <span class="normal"> “Amet minim mollit non deserunt ests ullamco est sit aliqua”. </span>
+                       </div>
+                    </div>
+                    <div class="review-mobile">
+                        <span class="normal"> “Amet minim mollit non deserunt ests ullamco est sit aliqua”. </span>
+                    </div>                 
+                </div>
+                <div class="customer-review-info">
+                    <img src="/assets/review.png">
+                    <div>
+                        <div>
+                            <h3> Lê Hoàng Hà (banking staff) </h3>
+                            <img src="/assets/star.svg">
+                        </div>
+                        <div>
+                            <span> Amet minim mollit non deserunt ullamco est sit aliqua ullamco est sit aliqua ullamco est sit aliqua </span>
+                       </div>
+                       <div class="review-large-device">
+                            <span class="normal"> “Amet minim mollit non deserunt ests ullamco est sit aliqua”. </span>
+                       </div>
+                    </div>
+                    <div class="review-mobile">
+                        <span class="normal"> “Amet minim mollit non deserunt ests ullamco est sit aliqua”. </span>
+                    </div>                  
+                </div>
+                <div class="customer-review-info">
+                    <img src="/assets/review.png">
+                    <div>
+                        <div>
+                            <h3> Lê Hoàng Hà (banking staff) </h3>
+                            <img src="/assets/star.svg">
+                        </div>
+                        <div>
+                            <span> Amet minim mollit non deserunt ullamco est sit aliqua ullamco est sit aliqua ullamco est sit aliqua </span>
+                       </div>
+                       <div class="review-large-device">
+                            <span class="normal"> “Amet minim mollit non deserunt ests ullamco est sit aliqua”. </span>
+                       </div>
+                    </div>
+                    <div class="review-mobile">
+                        <span class="normal"> “Amet minim mollit non deserunt ests ullamco est sit aliqua”. </span>
+                    </div>                  
+                </div>
+                <div class="customer-review-info">
+                    <img src="/assets/review.png">
+                    <div>
+                        <div>
+                            <h3> Lê Hoàng Hà (banking staff) </h3>
+                            <img src="/assets/star.svg">
+                        </div>
+                        <div>
+                            <span> Amet minim mollit non deserunt ullamco est sit aliqua ullamco est sit aliqua ullamco est sit aliqua </span>
+                       </div>
+                       <div class="review-large-device">
+                            <span class="normal"> “Amet minim mollit non deserunt ests ullamco est sit aliqua”. </span>
+                       </div>
+                    </div>
+                    <div class="review-mobile">
+                        <span class="normal"> “Amet minim mollit non deserunt ests ullamco est sit aliqua”. </span>
+                    </div>                  
+                </div>
+                <div class="customer-review-info">
+                    <img src="/assets/review.png">
+                    <div>
+                        <div>
+                            <h3> Lê Hoàng Hà (banking staff) </h3>
+                            <img src="/assets/star.svg">
+                        </div>
+                        <div>
+                            <span> Amet minim mollit non deserunt ullamco est sit aliqua ullamco est sit aliqua ullamco est sit aliqua </span>
+                        </div>
+                        <div class="review-large-device">
+                                <span class="normal"> “Amet minim mollit non deserunt ests ullamco est sit aliqua”. </span>
+                        </div>
+                    </div>
+                    <div class="review-mobile">
+                        <span class="normal"> “Amet minim mollit non deserunt ests ullamco est sit aliqua”. </span>
+                    </div>                  
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="footer-head">
+                    <p class="footer-title"> FEEL YOUR TOUR AT <br>
+                        <span> CONNEK TRIP </span>
+                    </p>
+                    <img src="/assets/logofooter.png">
+                </div>
+                <div class="footer-contact">
+                    <div>
+                        <img src="/assets/map-pin.svg">
+                        <span> 98 Hang Gai, Hoan Kiem, Hanoi, Vietnam </span>
+                    </div>
+                    <div>
+                        <img src="/assets/mail.svg">
+                        <span> Info@connektrip.com </span>
+                    </div>
+                    <div>
+                        <img src="/assets/phone1.svg">
+                        <span> +84 969 678 760 </span>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <div>
+                        <img src="/assets/whatsapp.svg">
+                        <img src="/assets/instagram.svg">
+                        <img src="/assets/tiktok.svg">
+                        <img src="/assets/facebook.svg">
+                    </div>
+                    <div>
+                        <span> (c) 2022 Published by Okhub </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-mobile">
+                <div class="menu-mobile-relative">
+                    <div class="menu-mobile-background"> <img src="/assets/Subtract.svg"> </div>
+                    <div class="menu-mobile-center"> <img src="/assets/Vector.svg"> </div>
+                    <div class="nav-icons">
+                        <div>
+                            <div class="nav-icons-left-side">
+                                <img src="/assets/home.svg">
+                                <img src="/assets/compass.svg">
+                            </div>
+                            <div class="nav-icons-right-side">
+                                <img src="/assets/document.svg">
+                                <img src="/assets/user.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-fixed">
+                <div> <img src="/assets/zalo-fixed.svg"> </div>
+                <div> <img src="/assets/messenger-fixed.svg"> </div>
+                <div> <img src="/assets/phone-fixed.svg"> </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
